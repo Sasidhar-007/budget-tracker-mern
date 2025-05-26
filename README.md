@@ -1,13 +1,18 @@
 # budget-tracker-mern
+
 This project is an Expense Tracker Web Application built using the MERN stack (MongoDB, Express.js, React.js, Node.js)
-1. Introduction
+
+
+# 1. Introduction
+
 In today’s fast-paced world, managing personal finances is crucial, yet often overlooked. Many individuals struggle to track their daily expenses, leading to poor budgeting and overspending. This project aims to address this issue through the development of a full-stack web-based Expense Tracker application using the MERN stack—MongoDB, Express.js, React.js, and Node.js.
 
 The system provides users with a seamless interface to add, view, categorize, update, and delete financial transactions, thereby promoting healthy financial habits. It’s designed to be intuitive, responsive, and scalable, supporting a smooth user experience on both desktop and mobile devices.
 
 This document outlines the objectives, technologies, system design, and standout features of the application, demonstrating how modern web technologies can effectively solve everyday problems.
 
-2. Project Objectives
+ # 2. Project Objectives
+
 The primary goal of this project is to develop a user-friendly and efficient expense tracking system that enables users to monitor their finances in real-time. The specific objectives include:
 
 Facilitate Daily Tracking: Allow users to log income and expenses across customizable categories.
@@ -22,7 +27,8 @@ Ensure Responsive Design: Make the application fully usable on all screen sizes,
 
 By fulfilling these objectives, the application empowers users to gain better control over their personal finances.
 
-3. Technologies Used
+# 3. Technologies Used
+
 This project leverages the power and flexibility of the MERN stack, which includes:
 
 MongoDB: A NoSQL document-oriented database used to store user data, including expenses, incomes, and categories.
@@ -41,7 +47,8 @@ Mongoose: An Object Data Modeling (ODM) library for MongoDB, used for schema def
 
 This stack ensures that the application is fast, modern, and capable of handling real-world use cases efficiently.
 
-4. Key Features
+# 4. Key Features
+
 The application is designed with several core features that enhance its utility and user-friendliness:
 
 4.1. User Interface
@@ -77,7 +84,8 @@ Modular and clean codebase for scalability and maintainability.
 
 Prepared for JWT-based authentication (can be added for multi-user support).
 
-5. System Architecture
+# 5. System Architecture
+
 The architecture follows a client-server model:
 
 Client (Frontend):
@@ -102,7 +110,8 @@ MongoDB collection stores transaction data in JSON-like documents.
 
 Indexed by timestamps and categories for efficient queries.
 
-6. Conclusion
+# 6. Conclusion
+
 This Expense Tracker application is a practical example of how full-stack development can be used to build robust, interactive, and real-world applications. By integrating MongoDB, Express, React, and Node.js, the system achieves a balanced and scalable architecture capable of supporting both individual and enterprise use cases with further customization.
 
 The application not only fulfills its goal of simplifying expense management but also demonstrates modern development practices, including modular code organization, responsive design, and real-time user interactions.
